@@ -145,12 +145,15 @@ aside {
 /* Top bar */
 
 nav.top {
-  width: 100%;
+  width: calc(100% - 230px);
   height: 90px;
   position: fixed;
   z-index: 3;
   background-color: rgba(0, 0, 0, 0.3);
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
 .upgrade {
@@ -158,7 +161,9 @@ nav.top {
   color: white;
   border: 2px solid white;
   border-radius: 40px;
-  padding: 15px 32px;
+  padding: 12px 32px;
+  width: 250px;
+  height: 50px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -194,12 +199,6 @@ footer {
   justify-content: space-between;
 }
 
-.player-bar {
-  height: 100%;
-  width: 20%;
-  background-color: darkmagenta;
-}
-
 .music-player {
   height: 100%;
   width: 40%;
@@ -210,4 +209,10 @@ footer {
   height: 100%;
   width: 20%;
   background-color: rgb(139, 74, 0);
+}
+
+.song {
+  height: 100%;
+  width: 20%;
+  background-color: rgb(197, 136, 255);
 }
