@@ -26,9 +26,9 @@
         <!-- Side bar -->
 
         <aside>
-          <div class="aside-one">
+          <div id="aside-one">
             <img src="./img/logo.svg" alt="spotifylogo" />
-            <ul class="search-bar">
+            <ul id="search-bar">
               <li>
                 <div class="search-button">
                   <img src="./img/home.svg" alt="" srcset="" />
@@ -49,10 +49,10 @@
               </li>
             </ul>
 
-            <ul class="playlist">
+            <ul id="playlist">
               <li>Playlist</li>
               <li>
-                <div class="create-playlist">
+                <div id="create-playlist">
                   <i class="fa-solid fa-square-plus"></i>
                   <h3>Crea Playlist</h3>
                 </div>
@@ -66,14 +66,14 @@
               <li>Nome Playlist</li>
             </ul>
           </div>
-          <div class="aside-two">
+          <div id="aside-two">
             <div class="search-button">
               <img src="./img/download.svg" alt=""></i
               ><span> Installa app</span>
             </div>
             <hr class="separator" />
 
-            <div class="user">
+            <div id="user">
               <img src="./img/profile.svg" alt="">
               <h3>John Doe</h3>
             </div>
@@ -87,11 +87,18 @@
         <main>
           <!-- Navbar top -->
 
-          <nav class="top"><div class="upgrade">Effettua l'upgrade</div></nav>
+          <nav class="navbar"><div id="upgrade">Effettua l'upgrade</div></nav>
 
           <!-- /navbar top  -->
 
-          <div class="main-content"></div>
+          <div class="container">  <div class="top-bar row">
+            <span class="active">In Evidenza</span>
+            <span>Podcast</span>
+            <span>Classifiche</span>
+            <span>Generi e Mood</span>
+            <span>Nuove Uscite</span>
+            <span>Scopri</span>
+          </div></div>
         </main>
 
         <!-- /main content -->
@@ -100,9 +107,30 @@
       <!-- Footer -->
       <footer>
        
-          <div class="song"></div>
-          <div class="music-player"></div>
-          <div class="controls"></div>
+<!-- Left -->
+
+          <div id="playing">
+            <div class="left-album">
+              <img src="./img/sinister.jpeg" alt="Sinister-playing" />
+            </div>
+            <div class="column">
+              <h3>Sinister</h3>
+              <h4 class="grey-text track">Nome Brano</h4>
+            </div>
+            <div class="row-buttons">
+              <i class="grey-text far fa-heart"></i>
+              <i class="grey-text far fa-folder"></i>
+            </div>
+          </div>
+
+          
+          <!-- Mid -->
+
+          <div id="music-player"></div>
+
+          <!-- Right -->
+
+          <div id="controls"></div>
       
       </footer>
 
