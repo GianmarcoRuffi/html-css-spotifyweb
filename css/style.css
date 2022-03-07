@@ -81,6 +81,12 @@ aside {
   margin-bottom: 15px;
 }
 
+.search-button {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
 .playlist > li {
   margin-bottom: 18px;
 }
