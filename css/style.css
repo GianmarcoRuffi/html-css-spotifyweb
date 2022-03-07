@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 .debug {
@@ -13,7 +14,10 @@
 body {
   background-color: black;
   color: white;
-  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style: none;
 }
 
 /* Wrapper */
@@ -21,10 +25,12 @@ body {
 .wrapper {
   height: 100vh;
   width: 100%;
+  max-width: 100%;
 }
 
 .wrapper-content {
   width: 100%;
+  max-width: 100%;
   height: calc(100% - 90px);
   display: flex;
 }
@@ -33,6 +39,7 @@ body {
 
 aside {
   width: 230px;
+  height: calc(100vh - 90px);
   background-color: #000000;
   color: #a3a3a3;
   display: flex;
@@ -65,16 +72,15 @@ aside {
 }
 
 .aside-one > ul {
-  list-style: none;
-
   margin-bottom: 30px;
 }
 
 .search-bar {
   margin-top: 30px;
 }
-.search-bar .fa-solid {
-  font-size: 25px;
+.search-bar img {
+  width: 30px;
+  height: 30px;
 }
 
 .search-bar > li {
@@ -85,6 +91,11 @@ aside {
   display: flex;
   align-items: center;
   column-gap: 8px;
+}
+
+.aside-two .search-button img {
+  width: 20px;
+  height: 20px;
 }
 
 .playlist > li {
@@ -124,8 +135,11 @@ aside {
   color: white;
 }
 
-.user .fa-regular {
-  font-size: 25px;
+.user img {
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+  border-radius: 50%;
 }
 
 /* Top bar */
