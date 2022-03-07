@@ -1,0 +1,73 @@
+/* General */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.debug {
+  border: 1px solid white;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Wrapper */
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+}
+
+.wrapper-content {
+  width: 100%;
+  height: calc(100% - 90px);
+  background-color: blue;
+  display: flex;
+}
+
+/* Side bar */
+
+aside {
+  width: 230px;
+  background-color: red;
+}
+
+/* Top bar */
+
+nav.top {
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Main */
+
+main {
+  width: calc(100% - 230px);
+  background-color: orangered;
+}
+
+.main-content {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  padding-top: 90px;
+}
+
+/* Footer */
+
+footer {
+  height: 90px;
+  width: 100%;
+  background-color: #282828;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
