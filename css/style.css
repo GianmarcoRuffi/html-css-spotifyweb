@@ -297,6 +297,12 @@ main {
   cursor: pointer;
 }
 
+.img-wrap {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
 .square .img-wrap:hover .playbutton {
   display: flex;
 }
@@ -315,6 +321,18 @@ main {
 
 .rounded {
   border-radius: 50%;
+}
+
+.title {
+  font-weight: bold;
+  color: white;
+  padding-top: 5%;
+}
+
+.artist {
+  font-weight: bold;
+  color: #797c80;
+  padding-top: 5%;
 }
 
 /* Footer */
