@@ -290,6 +290,12 @@ main {
   margin-bottom: 5px;
 }
 
+.row .intersection span {
+  color: #797c80;
+  font-size: 12 px;
+  font-weight: bold;
+}
+
 .first-section {
   justify-content: flex-start;
   width: 100%;
