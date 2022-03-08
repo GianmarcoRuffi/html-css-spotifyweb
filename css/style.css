@@ -200,6 +200,9 @@ main {
   overflow-y: auto;
   padding-top: 90px;
   display: flex;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content: center;
 }
 
 .top-bar {
@@ -207,6 +210,7 @@ main {
   margin-bottom: 50px;
   color: grey;
   font-weight: bold;
+  height: 3%;
 }
 
 .top-bar * {
@@ -229,6 +233,15 @@ main {
   padding-left: 25px;
 }
 
+.top-bar .active::after {
+  border-bottom: 2px solid greenyellow;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 50%;
+}
+
 /* Footer */
 
 footer {
@@ -243,6 +256,8 @@ footer {
   color: white;
   padding-left: 10px;
   padding-right: 10px;
+  z-index: 4;
+  min-height: 90px;
 }
 
 .grey-text {
@@ -254,7 +269,7 @@ footer {
 #playing {
   height: 100%;
   width: 20%;
-  background-color: rgb(139, 74, 0);
+  background-color: #282828;
   display: flex;
   align-items: center;
   flex-flow: row;
@@ -292,7 +307,7 @@ footer {
 #music-player {
   height: 100%;
   width: 50%;
-  background-color: rgb(5, 139, 0);
+  background-color: #282828;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
@@ -343,19 +358,27 @@ footer {
   cursor: pointer;
 }
 
+.time-elapsed,
+.track-time {
+  font-size: 12px;
+  font-weight: bold;
+}
+
 /* Right */
 
 #controls {
   height: 100%;
   width: 15%;
-  background-color: rgb(139, 74, 0);
+  background-color: #282828;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 #tools {
-  justify-content: space-around;
+  justify-content: space-evenly;
+  width: 60%;
+  height: 20%;
 }
 
 .small-bar {
