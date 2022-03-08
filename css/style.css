@@ -24,12 +24,12 @@ ul {
   display: flex;
 }
 
-.f-row {
-  flex-flow: row nowrap;
+.row {
+  flex-flow: row wrap;
 }
 
-.f-col {
-  flex-flow: column nowrap;
+.col {
+  flex-flow: column wrap;
 }
 
 /* Wrapper */
@@ -202,8 +202,10 @@ main {
   display: flex;
   padding-left: 25px;
   padding-right: 25px;
-  justify-content: center;
+  flex-flow: column;
 }
+
+/* Main - Top Bar */
 
 .top-bar {
   margin-top: 20px;
@@ -211,6 +213,7 @@ main {
   color: grey;
   font-weight: bold;
   height: 3%;
+  align-self: center;
 }
 
 .top-bar * {
@@ -234,12 +237,25 @@ main {
 }
 
 .top-bar .active::after {
-  border-bottom: 2px solid greenyellow;
   content: "";
-  left: 0;
-  bottom: 0;
-  height: 0;
+  display: block;
+  height: 2px;
+  margin: auto;
+  margin-top: 5px;
   width: 50%;
+  background-color: greenyellow;
+}
+
+/* Sections */
+
+.intersection {
+  margin-bottom: 20px;
+  height: 5%;
+  width: 20%;
+}
+
+.intersection * {
+  margin-bottom: 5px;
 }
 
 /* Footer */
