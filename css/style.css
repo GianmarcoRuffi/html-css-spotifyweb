@@ -82,6 +82,7 @@ aside {
   flex-flow: column nowrap;
   justify-content: end;
   background-color: #000000;
+  margin-top: 40px;
 }
 
 #aside-one > img {
@@ -96,7 +97,6 @@ aside {
 #search-bar {
   margin-top: 30px;
   background-color: #000000;
-  height: 20%;
 }
 
 #search-bar img {
