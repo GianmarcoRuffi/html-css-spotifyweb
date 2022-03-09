@@ -131,11 +131,12 @@ aside {
   margin-bottom: 18px;
 }
 
-#playlist li:first-child {
+.playlist-section h2 {
   font-weight: bold;
   text-transform: uppercase;
   color: white;
   font-size: 15px;
+  margin-bottom: 15px;
 }
 
 #create-playlist .fa-solid {
@@ -150,7 +151,7 @@ aside {
 
 .playlist-section {
   overflow: hidden;
-  height: 60%;
+  height: 54%;
 }
 
 .separator {
