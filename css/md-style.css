@@ -1,4 +1,61 @@
 /*  Media Queries  */
 
 @media screen and (max-width: 768px) {
+  aside {
+    width: 230px;
+  }
+
+  nav.navbar,
+  main {
+    width: calc(100% - 230px);
+  }
+
+  #aside-two {
+    margin-top: 120px;
+  }
+  .top-bar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-flow: row wrap;
+  }
+
+  .top-bar span {
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 13px;
+  }
+
+  .top-bar .active::after {
+    content: "";
+    display: block;
+    height: 2px;
+    margin: auto;
+    margin-top: 5px;
+    width: 30%;
+    background-color: greenyellow;
+  }
+
+  .intersection {
+    margin-bottom: 20px;
+    width: 80%;
+  }
+
+  .row .card {
+    padding: 2px;
+    position: relative;
+    width: calc((100% / 4) - 10px);
+    margin-right: 10px;
+  }
+
+  .title {
+    font-size: 14px;
+    padding-top: 5%;
+  }
+
+  .artist {
+    font-size: 15px;
+    font-weight: bold;
+    color: #797c80;
+    padding-top: 5%;
+  }
 }
