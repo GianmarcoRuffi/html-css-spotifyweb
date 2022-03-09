@@ -121,3 +121,132 @@
     align-items: center;
   }
 }
+
+@media screen and (max-width: 576px) {
+  aside {
+    width: 230px;
+  }
+
+  nav.navbar,
+  main {
+    width: calc(100% - 230px);
+  }
+
+  #aside-two {
+    margin-top: 120px;
+  }
+  .top-bar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .top-bar span {
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 13px;
+  }
+
+  .top-bar .active::after {
+    content: "";
+    display: block;
+    height: 2px;
+    margin: auto;
+    margin-top: 5px;
+    width: 30%;
+    background-color: greenyellow;
+  }
+
+  .intersection {
+    margin-bottom: 20px;
+    width: 80%;
+  }
+
+  .row .card {
+    padding: 2px;
+    position: relative;
+    width: calc((100% / 2) - 10px);
+    margin-right: 10px;
+  }
+
+  .title {
+    font-size: 14px;
+    padding-top: 5%;
+  }
+
+  .artist {
+    font-size: 15px;
+    font-weight: bold;
+    color: #797c80;
+    padding-top: 5%;
+  }
+
+  #playing {
+    height: 100%;
+    width: 25%;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+    gap: 2px;
+  }
+  .row-buttons {
+    width: 50px;
+    height: 30px;
+    margin-left: 15px;
+    display: flex;
+    flex-flow: column;
+    column-gap: 5px;
+  }
+
+  .left-album {
+    width: 40px;
+    height: 40px;
+  }
+
+  #music-player {
+    height: 100%;
+    width: 50%;
+    background-color: #282828;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .progress {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 90%;
+    height: 10%;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .progress-tracker {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(370%, -70%);
+    display: none;
+    cursor: pointer;
+  }
+
+  .bar {
+    width: 450px;
+    background-color: #787878;
+    height: 7px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #controls {
+    height: 100%;
+    width: 25%;
+    background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
