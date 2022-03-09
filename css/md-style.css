@@ -93,7 +93,7 @@
     margin-top: 15px;
   }
 
-  .progress-tracker {
+  /* .progress-tracker { 
     height: 20px;
     width: 20px;
     background-color: white;
@@ -102,6 +102,8 @@
     display: none;
     cursor: pointer;
   }
+
+  */
 
   .bar {
     width: 450px;
@@ -222,7 +224,7 @@
     margin-top: 15px;
   }
 
-  .progress-tracker {
+  /* .progress-tracker { 
     height: 20px;
     width: 20px;
     background-color: white;
@@ -231,6 +233,7 @@
     display: none;
     cursor: pointer;
   }
+  */
 
   .bar {
     width: 450px;
