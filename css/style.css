@@ -71,7 +71,7 @@ aside {
 
 #aside-one {
   width: 100%;
-  height: 600px;
+  height: 100%;
   background-color: #000000;
 }
 
@@ -96,6 +96,7 @@ aside {
 #search-bar {
   margin-top: 30px;
   background-color: #000000;
+  height: 20%;
 }
 
 #search-bar img {
@@ -122,7 +123,10 @@ aside {
 #playlist {
   margin-top: 10px;
   background-color: #000000;
+  overflow-y: auto;
+  height: 70%;
 }
+
 #playlist > li {
   margin-bottom: 18px;
 }
@@ -142,6 +146,11 @@ aside {
   display: flex;
   align-items: center;
   column-gap: 8px;
+}
+
+.playlist-section {
+  overflow: hidden;
+  height: 60%;
 }
 
 .separator {
@@ -298,14 +307,12 @@ main {
 
 .intersection {
   margin-bottom: 20px;
-  height: 5%;
   width: 20%;
 }
 
 .second-intersection {
   margin-bottom: 60px;
   margin-top: 110px;
-  height: 5%;
   width: 100%;
   line-height: 2em;
 }
@@ -328,14 +335,12 @@ main {
 .first-section {
   justify-content: flex-start;
   width: 100%;
-  height: 40%;
 }
 
 .second-section,
 .third-section {
   justify-content: flex-start;
   width: 100%;
-  height: 30%;
 }
 
 .row .card {
@@ -368,8 +373,6 @@ main {
 
 .img-wrap {
   position: relative;
-  width: 250px;
-  height: 250px;
 }
 
 .rounded {
