@@ -299,18 +299,22 @@ main {
 
 .second-intersection {
   margin-bottom: 60px;
-  margin-top: 120px;
+  margin-top: 110px;
   height: 5%;
-  width: 50%;
+  width: 100%;
   line-height: 2em;
 }
 
-.intersection,
-.second-intersection * {
-  margin-bottom: 5px;
+.third-intersection {
+  margin-bottom: 60px;
+  margin-top: 60px;
+  height: 5%;
+  width: 100%;
+  line-height: 2em;
 }
 
-.second-intersection span {
+.second-intersection span,
+.third-intersection span {
   color: #797c80;
   font-size: 12 px;
   font-weight: bold;
@@ -322,7 +326,8 @@ main {
   height: 40%;
 }
 
-.second-section {
+.second-section,
+.third-section {
   justify-content: flex-start;
   width: 100%;
   height: 30%;
