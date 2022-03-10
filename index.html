@@ -28,24 +28,25 @@
 
         <aside>
           <div id="aside-one">
-            <img src="./img/logo.svg" alt="spotifylogo" />
+            <img class="big-logo" src="./img/logo.svg" alt="spotifylogo" />
+            <img class="small-logo" src="./img/logo-small.svg" alt="spotifylogo" />
             <ul id="search-bar">
               <li>
                 <div class="search-button active">
                   <img src="./img/home.svg" alt="" srcset="" />
-                  <span>Home</span>
+                  <span class="collapse">Home</span>
                 </div>
               </li>
               <li>
                 <div class="search-button">
                   <img src="./img/search.svg" alt=""></i>
-                  <span>Cerca</span>
+                  <span class="collapse">Cerca</span>
                 </div>
               </li>
               <li>
                 <div class="search-button">
                   <img src="./img/libreria.svg" alt="">
-                  <span>La tua libreria</span>
+                  <span class="collapse">La tua libreria</span>
                 </div>
               </li>
             </ul>
@@ -70,17 +71,17 @@
                      
                       
                     </div>
-
+          </div>
           <div id="aside-two">
             <div class="search-button">
               <img src="./img/download.svg" alt=""></i
-              ><span> Installa app</span>
+              ><span class="collapse"> Installa app</span>
             </div>
-            <hr class="separator" />
+            <hr class="separator collapse" />
 
             <div id="user">
               <img src="./img/profile.svg" alt="">
-              <h3>John Doe</h3>
+              <h3 class="collapse">John Doe</h3>
             </div>
           </div>
         </aside>
@@ -279,9 +280,9 @@
 <!-- Left -->
 
           <div id="playing">
-            <div class="left-album">
+            
               <img src="./img/player_left.jpg" alt="song-playing" />
-            </div>
+            
             <div class="column">
               <h3>Clark Griswold</h3>
               <h4 class="grey-text track">Hilltop Hoods</h4>
