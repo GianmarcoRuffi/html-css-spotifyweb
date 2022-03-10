@@ -1,5 +1,7 @@
 /*  Media Queries  */
 
+/*  MEDIUM  */
+
 @media screen and (max-width: 768px) {
   aside {
     width: 230px;
@@ -93,18 +95,6 @@
     margin-top: 15px;
   }
 
-  /* .progress-tracker { 
-    height: 20px;
-    width: 20px;
-    background-color: white;
-    border-radius: 50%;
-    transform: translate(370%, -70%);
-    display: none;
-    cursor: pointer;
-  }
-
-  */
-
   .bar {
     width: 450px;
     background-color: #787878;
@@ -123,6 +113,8 @@
     align-items: center;
   }
 }
+
+/*  SMALL  */
 
 @media screen and (max-width: 576px) {
   aside {
@@ -223,17 +215,6 @@
     align-items: center;
     margin-top: 15px;
   }
-
-  /* .progress-tracker { 
-    height: 20px;
-    width: 20px;
-    background-color: white;
-    border-radius: 50%;
-    transform: translate(370%, -70%);
-    display: none;
-    cursor: pointer;
-  }
-  */
 
   .bar {
     width: 450px;
