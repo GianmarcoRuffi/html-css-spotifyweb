@@ -262,12 +262,30 @@
     display: flex;
     align-items: center;
     flex-flow: row;
-    gap: 2px;
+    gap: 1px;
   }
+
+  #playing .track {
+    font-size: 11px;
+  }
+
+  #playing h3 {
+    font-size: 11px;
+  }
+
+  .player-buttons {
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    font-size: 15px;
+    width: 200px;
+  }
+
   .row-buttons {
-    width: 50px;
+    width: 30px;
     height: 30px;
-    margin-left: 15px;
+    margin-left: 5px;
     display: flex;
     flex-flow: column;
     column-gap: 5px;
