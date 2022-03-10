@@ -12,9 +12,6 @@
     width: calc(100% - 230px);
   }
 
-  #aside-two {
-    margin-top: 120px;
-  }
   .top-bar {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -135,6 +132,7 @@
     position: relative;
     width: calc((100% / 2) - 10px);
     margin-right: 10px;
+    margin-bottom: 30px;
   }
 
   .title {
@@ -180,6 +178,10 @@
 @media screen and (max-width: 576px) {
   aside {
     width: 60px;
+    font-size: 13px;
+    padding-left: 14px;
+    padding-right: 0;
+    padding-top: 10px;
   }
 
   .playlist-section {
@@ -232,6 +234,7 @@
     position: relative;
     width: calc((100% / 2) - 10px);
     margin-right: 10px;
+    margin-bottom: 30px;
   }
 
   .title {

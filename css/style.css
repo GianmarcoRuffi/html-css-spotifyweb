@@ -155,7 +155,7 @@ aside {
 
 .playlist-section {
   overflow: hidden;
-  height: 54%;
+  height: 70%;
 }
 
 .separator {
@@ -353,6 +353,7 @@ main {
   position: relative;
   width: calc((100% / 6) - 20px);
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .card p {
