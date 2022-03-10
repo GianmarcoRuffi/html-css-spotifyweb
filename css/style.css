@@ -182,6 +182,8 @@ aside {
 /* Hovers */
 
 .search-button span:hover,
+.search-button img:hover,
+#search-bar img:hover,
 #playlist li:hover,
 #create-playlist:hover,
 .top-bar span:hover,

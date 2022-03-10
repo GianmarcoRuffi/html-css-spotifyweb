@@ -1,6 +1,6 @@
 /*  Media Queries  */
 
-/*  MEDIUM  */
+/**************  MEDIUM  **************/
 
 @media screen and (max-width: 992px) {
   aside {
@@ -87,7 +87,7 @@
   }
 }
 
-/*  SMALL  */
+/**************  SMALL  **************/
 
 @media screen and (max-width: 768px) {
   aside {
@@ -173,7 +173,7 @@
   }
 }
 
-/*  EXTRA SMALL  */
+/**************  EXTRA SMALL  **************/
 
 @media screen and (max-width: 576px) {
   aside {
@@ -194,6 +194,12 @@
 
   .small-logo {
     display: block;
+  }
+
+  #aside-two .search-button img {
+    width: 20px;
+    margin-left: 3px;
+    margin-bottom: 20px;
   }
 
   nav.navbar,
